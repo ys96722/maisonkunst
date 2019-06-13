@@ -33,3 +33,17 @@ export const Hero = styled(Flex)`
     /* background-color: white; */
     /* box-shadow: 2px 2px 50px rgba(0, 0, 0, 0.2); */
 `
+
+export const Footer = styled(Flex)`
+    position: absolute;
+    width: 80%;
+    height: 10%;
+    justify-content: center;
+    align-self: flex-end;
+    /* color: white; */
+    
+    h1 {
+        color: gray;
+        font-size: 10px;
+    }
+`

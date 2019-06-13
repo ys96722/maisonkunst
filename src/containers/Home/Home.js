@@ -1,5 +1,5 @@
 import React from 'react';
-import { HomeContainer, Banner } from "./Home.style"
+import { HomeContainer, Banner, Footer } from "./Home.style"
 import Stalker from "../../components/Stalker"
 
 function Home(props) {
@@ -72,6 +72,9 @@ function Home(props) {
                 style={{
                 
             }} />
+            <Footer>
+                <h1>Copyright 2019 @ Ina Kang and Yoon Chang</h1>
+            </Footer>
         </HomeContainer>
     )
 }
