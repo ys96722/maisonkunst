@@ -2,21 +2,14 @@ import styled from "styled-components"
 import { Flex } from "../../style/grid"
 
 export const HomeContainer = styled(Flex)`
-  width: 100vw;
-  height: 100vh;
+  width: 100%;
+  height: 100%;
   background-color: black;
-  perspective: 40px;
 `
 
-// export const Banner = styled(Flex)`
-
-// `
-
-export const Hero = styled(Flex)`
-  width: 50%;
-  height: 50%;
-  /* background-color: white; */
-  /* box-shadow: 2px 2px 50px rgba(0, 0, 0, 0.2); */
+export const BannerImage = styled.img`
+  min-width: 400px;
+  width: 25%;
 `
 
 export const Footer = styled(Flex)`

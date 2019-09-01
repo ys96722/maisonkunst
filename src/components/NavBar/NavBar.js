@@ -1,11 +1,26 @@
 import React from "react"
-import { NavContaner } from "./NavBar.style"
+import {
+  NavContaner,
+  NavItemsContainer,
+  NavLeftBox,
+  NavRightBox,
+  NavItem
+} from "./NavBar.style"
 
 function NavBar(props) {
   return (
-    <NavContaner src={props.src}>
-      <img src={props.src} />
-      <h1>hi</h1>
+    <NavContaner>
+      {/* <NavItemsContainer> */}
+      <NavLeftBox>
+        <p>MASION KUNST</p>
+      </NavLeftBox>
+      <NavRightBox>
+        <NavItem>SHOP</NavItem>
+        <NavItem>ACCOUNT</NavItem>
+        <NavItem>CART</NavItem>
+        <NavItem>KR</NavItem>
+      </NavRightBox>
+      {/* </NavItemsContainer> */}
     </NavContaner>
   )
 }
